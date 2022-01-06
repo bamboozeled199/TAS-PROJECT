@@ -15,7 +15,10 @@
     <artifactId>medhelp-app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-
+    <properties>
+        <sonar.organization>bamboozeled199</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    </properties>
     <description>MedHelp Application</description>
     <modules>
         <module>medhelp-api</module>
